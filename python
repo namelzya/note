@@ -18,4 +18,4 @@
     eg:
         xml_labels = os.listdir(xml_dir)
         np.random.shuffle(xml_labels)
-        split_point = int(len(xml_labels)/10)
+        
