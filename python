@@ -1,1 +1,10 @@
-
+用ET find和findall进行xml数据配置_byseyOrd
+find和findall支持的xpath语法
+for neighbor in root.findall("*/neighbor"):
+    print("neighbor---:"+neighbor.get("name"))
+结果：
+neighbor---:Austria
+neighbor---:Switzerland
+neighbor---:Malaysia
+neighbor---:Costa Rica
+neighbor---:Colombia
