@@ -12,3 +12,10 @@
 2.Python strip()方法
     Python strip() 方法用于移除字符串头尾指定的字符（默认为空格或换行符）或字符序列。
     注意：该方法只能删除开头或是结尾的字符，不能删除中间部分的字符。
+    
+3.numpy 中的随机打乱数据方法np.random.shuffle
+    #实验可得每次shuffle后数据都被打乱，这个方法可以在机器学习训练
+    eg:
+        xml_labels = os.listdir(xml_dir)
+        np.random.shuffle(xml_labels)
+        split_point = int(len(xml_labels)/10)
