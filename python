@@ -19,3 +19,5 @@
         xml_labels = os.listdir(xml_dir)
         np.random.shuffle(xml_labels)
         
+4.os.path.join()
+    连接两个或更多的路径名组件(可以是多个)
