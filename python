@@ -21,3 +21,6 @@
         
 4.os.path.join()
     连接两个或更多的路径名组件(可以是多个)
+
+5.shutil.copy(src,newsrc)
+    将src文件copy到newsrc中去
