@@ -37,7 +37,7 @@
         T2 = torch.tensor([[10, 20, 30],
         		        [40, 50, 60],
         		        [70, 80, 90]])
-        print(torch.stack((T1,T2),dim=0).shape)
+        print(torch.stack((T1,T2),dim=0).shape)   #dim是选择生成的维度
         print(torch.stack((T1,T2),dim=1).shape)
         print(torch.stack((T1,T2),dim=2).shape)
         print(torch.stack((T1,T2),dim=3).shape)
