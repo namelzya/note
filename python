@@ -48,3 +48,8 @@
         '选择的dim>len(outputs)，所以报错'
         IndexError: Dimension out of range (expected to be in range of [-3, 2], but got 3)
 
+7.  .join()用法
+     eg:    ','.join('abc')
+            上面代码的含义是“将字符串abc中的每个成员以字符','分隔开再拼接成一个字符串”，输出结果为：
+            'a,b,c'
+     
