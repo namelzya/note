@@ -15,3 +15,13 @@
         但是，如果创建了指向new来的一块空间的指针的时候，如果在没有显示释放掉new到的堆空间时，系统是不会自动调用析构函数去释放栈空间中的指针的。
 
 3. ++i比i=++运行速度快
+
+4. count函数用法
+    使用方法是count（begin，end，‘a’），其中begin指的是起始地址，end指的是结束地址，第三个参数指的是需要查找的字符。
+
+5. unordered_map 
+    #include <hash_map>
+    C++ 11标准中加入了unordered系列的容器。unordered_map记录元素的hash值，根据hash值判断元素是否相同,unordered_map内部元素是无序的.
+    unordered_map感觉速度和hash_map差不多，但是支持string做key，也可以使用复杂的对象作为key。
+    
+    
