@@ -76,3 +76,17 @@
         def add(x, y) -> int:
             return x+y
         返回值是int类型
+        
+10. *args和**kwargs的区别
+    *args的使用方法
+        *args 用来将参数打包成tuple给函数体调用
+        eg:
+            def function(arg,*args,**kwargs):
+                print(arg,args,kwargs)
+            function(6,7,8,9,a=1, b=2, c=3)
+    **kwargs的使用方法
+        **kwargs 打包关键字参数成dict给函数体调用
+        eg:
+            def function(**kwargs):
+                print(kwargs)
+            function(a=1, b=2, c=3)
